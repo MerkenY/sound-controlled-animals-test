@@ -1,0 +1,15 @@
+body{
+background-color: rgb(95, 238, 48);
+font-family: Titillum Web;
+}
+
+.footer{
+    bottom:0;
+    float:none;
+    text-align: center;
+    position: fixed;
+    line-height: 3;
+    color:rgb(232, 93, 88);
+    width: 100%;
+    
+    }
