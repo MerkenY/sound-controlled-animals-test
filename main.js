@@ -15,22 +15,19 @@ else{console.log(results);
 document.getElementById("result").innerHTML="I can hear - "+results[0].label;
 document.getElementById("confidence").innerHTML="Accuracy "+(results[0].confidence * 100).toFixed(2)+"%";
 
-imgcat = docuament.getElementById("cat_pic");
-imgdog = docuament.getElementById("dog_pic");
-imgcow = docuament.getElementById("cow_pic");
-imglion = docuament.getElementById("lion_pic");
+imgdog = document.getElementById("dog_pic");
 
 if(results[0].label == "Meow")
-{ imgcat.src= "cat pic"}
+{ imgdog.src= "cat.jfif"}
 
 if(results[0].label == "Bark")
 { imgdog.src= "dog pic.jfif"}
 
 if(results[0].label == "Moo")
-{ imgcow.src= "cow pic"}
+{ imgdog.src= "cow.jfif"}
 
 if(results[0].label == "Roar")
-{ imglion.src= "lion pic"}
+{ imgdog.src= "lion.jfif"}
 
 }
 }
